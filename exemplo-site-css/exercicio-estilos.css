@@ -1,0 +1,17 @@
+h1 {text-align: center;
+
+}
+body {font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    background-image: url(dot-grid2.png);
+    
+}
+
+
+hr {
+    height: 0.1px;
+    background-color: black;   
+
+}
+
+

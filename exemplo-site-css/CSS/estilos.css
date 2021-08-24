@@ -1,0 +1,160 @@
+* {box-sizing: border-box;}
+
+
+body {
+    /* background-color: rgb(255, 156, 156);  */
+    background-image: url(../imagens/noite.jpg);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+#container {
+    /* background-color: rgba(255, 255, 255, 0.562); */
+    background-image: linear-gradient(blue,red);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 2px rgba(255, 255, 255, 0.43);
+}
+
+img {max-width: 100%;}
+
+.centralizar { text-align: center;}
+
+.canto_arredondado {border-radius: 20px;}
+.sombra {box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.43);}
+
+/* Exercício parte 1*/
+
+.alinhamento_centralizado {text-align: center;}
+.letras_maiusculas  {text-transform: uppercase;}
+.plano_de_fundo_cor_escura {background-color: black;}
+.cor_do_texto_clara {color: blanchedalmond;}
+.borda_inferior_5px {border-bottom: 5px;}
+.borda_superior_5px {border-top: 5px;}
+
+/* Exercício parte 2*/ 
+
+.cor_do_texto_verde {color: green;}
+/* .sombra_texto_preta {text-shadow: ;} */
+.alinhamento_a_direita {text-align: right;}
+.borda_direita_2px {border-right: 2px solid tan;}
+.espacamento_interno_a_direita_de_5px {padding-right: 5px;}
+
+/* Exercício parte 3*/
+
+.fonte_verdana {font-family: Verdana, Geneva, sans-serif;}
+.tamanho_fonte_18px {font-size: 18px;}
+.altura_de_linha_32px {line-height: 32px;}
+
+
+ol li {
+    text-transform: uppercase;
+}
+
+ul li {
+    list-style: square;
+}
+
+/* Formatação do estado inicial do link */
+
+p a {
+   text-decoration: none;
+   color: brown;
+   background-color: cyan;
+   padding: 8px;
+   border-radius: 3px;
+   font-weight: bolder; 
+   font-size: 14px;
+}
+
+/* Formatação de interação com o link
+:hover > pseudo-classe de passar o mouse
+:focus > pseudo-classe de dar foco com teclado
+
+Obs: uso de vírgula*/
+
+p a:hover, p a:focus {
+    background-color: darkcyan;
+    color: darkgoldenrod;
+}
+
+/* Seletor adjacente (formata o p que vem logo depois do h3) */
+
+h3 + p {color: darkmagenta;}
+
+
+nav a {
+        text-decoration: none;
+        font-weight: bolder;
+        background-color: darkmagenta;
+        color: white;
+        padding: 10px 10px;
+        
+        
+        display: inline-block; 
+        width: 33.33%;
+        
+        
+        
+}
+
+nav a:hover, nav a:focus {
+    background-image: linear-gradient(purple, yellow);
+}
+
+
+.flutuar_esquerda { float: left;}
+.flutuar_direita { float: right;}
+
+figure {
+    margin: 0 auto;
+    box-shadow: black 0 0 5px;
+    width: 400px;
+    max-width: 400px;
+
+    position: relative;
+}
+
+figcaption {
+    position: absolute; 
+    right: 0;
+    left: 0;
+    color: white;
+    bottom: 10px;
+    padding: 5px;
+    text-align: center; 
+    background-color: rgba(0, 0, 0, 0.548);
+       
+}
+
+/* Exercícios */
+
+
+
+/* 1) Crie uma regra para o elemento h1 com as seguintes configurações:
+-alinhamento centralizado
+-letras maiúsculas
+-plano de fundo cor escura
+-cor do texto clara
+-borda inferior de 5px, do estilo sólida e qualquer cor
+-borda superior de 5px, do estilo sólida e qualquer cor */
+
+
+/* 2) Crie uma regrada para o elemento h2 com as seguintes configurações:
+-cor do texto (de sua preferência)
+-sombra no texto (de sua preferência)
+-alinhamento à direita
+-borda direita de 2px (estilo e qualquer cor)
+-espaçamento interno à direita de 5px */
+
+
+/* 3) Crie uma regra para o elemento p com as seguintes configurações:
+-fonte Verdana (2a, 3a opção etc a sua escolha)
+-tamanho da fonte de 18px
+-altura de linha de 32px */
